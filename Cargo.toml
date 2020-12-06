@@ -1,0 +1,19 @@
+[package]
+name = "actor-ping"
+version = "0.1.0"
+authors = ["Konstantin-Ikaros Kanellopoulos <k@kanello.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.10.0"
+actix-rt = "1.1"
+nats = "0.3"
+anyhow = "1"
+redis = "0.18"
+eventsourcing = "0.1"
+eventsourcing-derive = "0.1"
+serde = "1"
+serde_json = "1"
+serde_derive = "1"
